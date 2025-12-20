@@ -19,10 +19,16 @@ def cizimmenu():
         import moduller.cizimler_kare        
     elif secim=="2" or secim=="Üçgen":
         print("Üçgen seçtiniz.")
+        import moduller.cizimler_ucgen
+        moduller.cizimler_ucgen.ucgen()
     elif secim=="3" or secim=="desen":
         print("Desen seçtiniz.")
+        import moduller.cizimler_desen
+        moduller.cizimler_desen 
     elif secim=="4" or secim=="pikachu":
         print("Pikachu seçtiniz.")
+        import moduller.cizimler_pikachu
+        moduller.cizimler_pikachu.main()
     elif secim=="5" or secim=="kaplan":
         print("Kaplan seçtiniz.")
     elif secim=="6" or secim=="çıkış":
