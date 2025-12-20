@@ -3,13 +3,13 @@ def cizimmenu():
     print("\033[1;32;40m")
     #print("╔"+"═"*20+"╗")
     print("╔═════════════════════╗")
-    print("║\033[1;31;40m    çizimlermenu   \033[1;32;40m     ║")
+    print("║\033[1;31;40m   çizimler menÜ \033[1;32;40m   ║")
     print("║                     ║")
     print("║  1-KARE             ║")
     print("║  2-Üçgen            ║")
     print("║  3-desen            ║")
     print("║  4-pikachu          ║")
-    print("║  5-kaplan           ║")
+    print("║  5-bayrak           ║")
     print("║    Seçimiz nedir?   ║")
     print("╚═════════════════════╝")
     # 201 ╔ # 205 ═ # 187 ╗ # 186 ║ # 200 ╚ # 188 ╝
@@ -29,8 +29,10 @@ def cizimmenu():
         print("Pikachu seçtiniz.")
         import moduller.cizimler_pikachu
         moduller.cizimler_pikachu.main()
-    elif secim=="5" or secim=="kaplan":
-        print("Kaplan seçtiniz.")
+    elif secim=="5" or secim=="bayrak":
+        print("bayrak seçtiniz.")
+        import moduller.cizimler_bayrak
+        moduller.cizimler_bayrak
     elif secim=="6" or secim=="çıkış":
         print("Çıkış yapıldı.")
         import sys  

@@ -19,20 +19,21 @@ def oyunmenu():
         import moduller.oyun_tetris    
         moduller.oyun_tetris.main()    
     elif secim=="2" or secim=="kelime bilmece":
-        print("Üçgen seçtiniz.")
+        print("kelime bilmece seçtiniz.")
         import moduller.oyun_kelime
-    elif secim=="3" or secim=="":
-        print("Desen seçtiniz.")
-        import moduller.cizimler_desen
-        moduller.cizimler_desen 
-    elif secim=="4" or secim=="pikachu":
-        print("Pikachu seçtiniz.")
-        import moduller.cizimler_pikachu
-        moduller.cizimler_pikachu.main()
-    elif secim=="5" or secim=="kaplan":
-        print(".")
-        import sys  
-        sys.exit()
+        moduller.oyun_kelime.main()
+    elif secim=="3" or secim=="sayı bilmece":
+        print("sayı bilmece seçtiniz.")
+        import moduller.oyun_sayı
+        moduller.oyun_sayı.main()
+    elif secim=="4" or secim=="adam_asmaca":
+        print("adam_asmaca")
+        import moduller.oyun_adam_asmaca
+        moduller.oyun_adam_asmaca.main()
+    elif secim=="5" or secim=="tkm":
+        print("tkm")
+        import moduller.oyun_tkm
+        moduller.oyun_tkm.main()
     else:
         print("Geçersiz seçim.")    
     # cizimmenu()
