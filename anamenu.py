@@ -28,8 +28,8 @@ def anamenu():
         moduller.cizimler.cizimmenu()
     elif secim=="4" or secim=="not hesaplama":
         print("Not hesaplama seçtiniz.")
-        import moduller.not_hesaplama
-        moduller.not_hesaplama.main()
+        import moduller.nothesaplama
+        moduller.nothesaplama.main()
     elif  secim=='5' or secim=='yapay zeka':
         import moduller.yapay_zeka
         moduller.yapay_zeka.main()   
