@@ -8,7 +8,7 @@ def anamenu():
     print("║  1-oyun             ║")
     print("║  2-hesap makinesi   ║")
     print("║  3-çizimler         ║")
-    print("║  4-not hesaplaman   ║")
+    print("║  4-not hesaplama    ║")
     print("║  5-yapay zeka       ║")
     print("║  6-çıkış            ║")
     print("║    Seçimiz nedir?   ║")
