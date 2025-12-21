@@ -31,8 +31,8 @@ def anamenu():
         import moduller.nothesaplama
         moduller.nothesaplama.main()
     elif  secim=='5' or secim=='yapay zeka':
-        import moduller.yapay_zeka
-        moduller.yapay_zeka.main()   
+        import moduller.yapay.zeka
+        moduller.yapay.zeka.yapay.zeka()  
     elif secim=="6" or secim=="çıkış":
         print("Çıkış yapıldı.")
         import sys

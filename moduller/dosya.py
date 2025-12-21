@@ -99,7 +99,7 @@ okunan = dosya.readlines()
 for a in okunan:
     # satir = a.split("#")
     satir = a.strip().split("#") # strip ile alt satır karakterleri vs silinir.
-    print(satir[0],"\t",satir[1])
+print(satir[0],"\t",satir[1])
 
 # farklı yerlerdeki dosyalardan verileri okuma
 # dosya = open("h04_2 dosya islemleri/deneme.txt") # klasör içindekileri / yazarak açabiliriz.
